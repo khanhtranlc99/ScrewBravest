@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: a880a991f0e237642bb4e4f25d3b0cdc
+labels:
+- al_max
+- al_max_export_path-MaxSdk/Mediation/BigoAds/Editor/Dependencies.xml
+- al_max_export_path-MaxSdk/Mediation/ByteDance/Editor/Dependencies.xml
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,18 @@
+﻿public enum EventID
+{
+  
+    NONE,
+    PLAYER_DEAD = 1,
+    PLAYER_RESPAWN = 2,
+    DISABLE_OUTLINE_BIRD = 3,
+    BUY_PRODUCT_SUCCESS_FIRST = 4,
+    BUY_PRODUCT_SUCCESS = 5,
+    CHANGE_LANGUAGE = 6,
+    REMOVE_ADS = 7,
+    FLY_OUT_RANDOM = 8,
+    MINI_GAME_CONNECT_BIRD_EGG = 9,
+
+    ScrollEndChange = 100,
+    CHANGE_COIN = 101,
+
+}

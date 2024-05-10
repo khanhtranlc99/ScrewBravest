@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1082748066909",
+    "firebase_url": "https://screw-master-2e10d-default-rtdb.firebaseio.com",
+    "project_id": "screw-master-2e10d",
+    "storage_bucket": "screw-master-2e10d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082748066909:android:95a434aae086b076c9c1b4",
+        "android_client_info": {
+          "package_name": "com.zgames.screw.puzzle.nuts.bolts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCELom2w3Bdjw8tg67gY3JQuzUQs2qexVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

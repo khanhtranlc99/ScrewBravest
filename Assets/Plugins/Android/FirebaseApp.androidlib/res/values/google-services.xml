@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id">
+  <string name="firebase_database_url" translatable="false">https://screw-master-2e10d-default-rtdb.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">1082748066909</string>
+  <string name="google_storage_bucket" translatable="false">screw-master-2e10d.appspot.com</string>
+  <string name="project_id" translatable="false">screw-master-2e10d</string>
+  <string name="google_api_key" translatable="false">AIzaSyCELom2w3Bdjw8tg67gY3JQuzUQs2qexVU</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCELom2w3Bdjw8tg67gY3JQuzUQs2qexVU</string>
+  <string name="google_app_id" translatable="false">1:1082748066909:android:95a434aae086b076c9c1b4</string>
+</resources>

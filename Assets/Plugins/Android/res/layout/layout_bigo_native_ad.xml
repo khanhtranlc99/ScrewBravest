@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sg.bigo.ads.api.NativeAdView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/native_ad_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:padding="8dp"
+    tools:ignore="ContentDescription">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/native_ad_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:text="Ad" />
+
+        <sg.bigo.ads.api.MediaView
+            android:id="@+id/native_media_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/native_ad_label"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="4dp" />
+
+        <ImageView
+            android:id="@+id/native_icon_view"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_below="@id/native_media_view"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/native_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/native_icon_view"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@id/native_icon_view"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/native_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/native_title"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@id/native_icon_view"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/native_cta"
+            android:layout_width="240dp"
+            android:layout_height="44dp"
+            android:layout_below="@id/native_icon_view"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            tools:ignore="ObsoleteLayoutParam" />
+
+        <sg.bigo.ads.api.AdOptionsView
+            android:id="@+id/native_option_view"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignTop="@id/native_icon_view"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/native_warning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/native_ad_label"
+            android:layout_alignBottom="@id/native_ad_label"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/native_ad_label"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text=""
+            android:textColor="@android:color/darker_gray"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+</sg.bigo.ads.api.NativeAdView>

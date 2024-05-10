@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dependencies>
+    <iosPods>
+        <iosPod name="BigoADS" version="4.0.4"/>
+    </iosPods>
+    <androidPackages>
+        <androidPackage spec="com.bigossp:bigo-ads:4.1.2">
+            <repositories>
+                <repository>https://repo1.maven.org/maven2/</repository>
+            </repositories>
+        </androidPackage>
+    </androidPackages>
+</dependencies>
